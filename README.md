@@ -10,7 +10,7 @@ $ apt search linux-image
 #Установливаем свежее ядро из ветки /stable
 
 $ sudo apt install linux-image-6.1.0-18-amd64
-
+```
 Reading package lists... Done
 Building dependency tree... Done
 Reading state information... Done
@@ -56,6 +56,6 @@ Setting up linux-image-amd64 (6.1.76-1) ...
 Processing triggers for initramfs-tools (0.142) ...
 update-initramfs: Generating /boot/initrd.img-6.1.0-18-amd64
 W: No zstd in /usr/bin:/sbin:/bin, using gzip
-
+```
 Версия после обновения:
 ![image](https://github.com/Krug912/HJ_otus/assets/162484306/96caabea-2b78-415e-a37b-70e20a9fd7b7)
